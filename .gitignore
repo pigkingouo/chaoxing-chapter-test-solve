@@ -1,0 +1,17 @@
+node_modules/
+playwright-solver/node_modules/
+config.json
+playwright-solver/config.json
+storageState.json
+playwright-solver/storageState.json
+logs/
+*.log
+.DS_Store
+answer-cache.json
+answer-cache.json.bak.*
+playwright-solver/answer-cache.json
+playwright-solver/answer-cache.json.bak.*
+
+# 字体指纹表内置使用（个人自用）。若因 GPL-3.0 合规需从公开仓库移除，取消下面两行注释：
+# playwright-solver/resource/font_map_table.json
+# playwright-solver/resource/

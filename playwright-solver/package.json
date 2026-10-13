@@ -1,0 +1,16 @@
+{
+  "name": "chaoxing-chapter-test-solver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "超星学习通章节测试自动作答（Playwright + 多模态 LLM）",
+  "scripts": {
+    "login": "node login.js",
+    "start": "node solve.js"
+  },
+  "dependencies": {
+    "playwright": "^1.64.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
